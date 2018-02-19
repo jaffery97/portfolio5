@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width:299px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px ;
+    margin-left: -153px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 61;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Hello</span>
+</div>
+
+
+
+</body>
+</html>
