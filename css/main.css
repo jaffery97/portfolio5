@@ -101,7 +101,7 @@ h3 {
 }
 
 input[text]{
-    
+    width:100%
 }
 
 
@@ -293,10 +293,4 @@ border-radius: 90px 0px 70px 0px;
     
 }
 
-.fn {
-    width:100%;
-    height:500px;
-    background-image: url(img/cony.png);
-    background-attachment: fixed;
-    background-size: cover;
-}
+

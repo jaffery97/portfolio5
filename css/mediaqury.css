@@ -68,7 +68,7 @@
 
 
     #footer .col {
-        width: 49% !important;
+        width: 100% !important;
         float: none;
         vertical-align: top;
         display: inline-block;
@@ -165,7 +165,7 @@
   color: #000;
     padding: 30px;
 }
-    .fn { display: none; }
+    
 }
 
 
